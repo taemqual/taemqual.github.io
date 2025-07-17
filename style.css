@@ -1,4 +1,15 @@
- body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; background-color: #f7f9fc; color: #3c4043; margin: 0; padding: 10px; }
+ .titulo-principal {
+    text-align: center;
+    color: #3c4043;
+    font-size: 2.5em; /* Tamanho grande */
+    font-weight: 900; /* Fonte bem "pesada" */
+    text-transform: uppercase; /* Deixa tudo em maiúsculas */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px; /* Um pouco de espaço entre as letras */
+}
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; background-color: #f7f9fc; color: #3c4043; margin: 0; padding: 10px; }
     .container { max-width: 800px; margin: 0 auto; }
     #painel-status { text-align: center; padding: 25px; border-radius: 12px; background-color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 30px; }
     .status-principal { font-size: 2em; font-weight: bold; color: #1a73e8; margin: 0; display: block; }
@@ -15,7 +26,13 @@
     .pauta-button:hover { background-color: #d2e3fc; }
 
            @media (max-width: 600px) {
-        body { 
+
+	.titulo-principal {
+        font-size: 1.8em; /* Um pouco menor no celular */
+        margin-top: 20px;
+       }
+
+	 body { 
             padding: 2px; /* Mínimo padding possível */
         }
         .status-principal { 
