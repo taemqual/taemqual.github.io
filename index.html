@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tá em qual audiência?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Todo o conteúdo do seu <body> vai aqui -->
+    <div class="container">
+        <div id="painel-status">
+            <div id="mensagem-status-container">
+                <!-- Conteúdo será preenchido pelo JS -->
+            </div>
+            <p id="atualizacao-status"></p>
+        </div>
+        <h2>Audiências já realizadas</h2>
+        <table id="historico-tabela">
+            <thead>
+                <tr>
+                    <th>Audiência</th>
+                    <th>Início</th>
+                    <th>Fim</th>
+                    <th>Duração</th>
+                </tr>
+            </thead>
+            <tbody id="historico-corpo"></tbody>
+        </table>
+        <div class="pauta-button-container">
+            <a href="https://pje.trt1.jus.br/consultaprocessual/pautas#VT20RJ-1" target="_blank" class="pauta-button">
+                Consulte a pauta completa
+            </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
