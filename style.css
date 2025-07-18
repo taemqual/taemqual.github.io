@@ -9,7 +9,7 @@
     letter-spacing: 1.5px; /* Um pouco de espaço entre as letras */
 }
 
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; background-color: #f7f9fc; color: #3c4043; margin: 0; padding: 10px; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; background-color: #f7f9fc; color: #3c4043; margin: 0; padding: 20px; }
     .container { max-width: 800px; margin: 0 auto; }
     #painel-status { text-align: center; padding: 25px; border-radius: 12px; background-color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 30px; }
     .status-principal { font-size: 2em; font-weight: bold; color: #1a73e8; margin: 0; display: block; }
@@ -33,7 +33,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxyge
        }
 
 	 body { 
-            padding: 2px; /* Mínimo padding possível */
+            padding: 15px; 
         }
         .status-principal { 
             font-size: 1.3em; /* Reduzindo um pouco mais */
