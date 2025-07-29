@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbw20xRK7pFKGZr4MRJRzjS0wWvgfbzQf04tvuY9Thx6Z0qHpxm00jfqO1mEoBksZHSQ/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbwm_OiYzpU_lSMarAiFUtTpn7GP0wjCCLCwHgtCI2DoPayZSTRS__1LlbpSEpVJ-gdZ9Q/exec";
 
     const mensagemContainerElem = document.getElementById('mensagem-status-container');
     const atualizacaoStatusElem = document.getElementById('atualizacao-status');
